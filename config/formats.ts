@@ -348,51 +348,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 
-	// Pet Mods
-	///////////////////////////////////////////////////////////////////
-
-	{
-		section: "Pet Mods",
-	},
-	{
-		name: "[Gen 6] Megas Revisited",
-		desc: `A Gen 6 metagame where every Mega Evolution was reevaluated and redesigned.`,
-		mod: 'gen6megasrevisited',
-		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod'],
-		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Soul Dew', 'Baton Pass', 'Blaziken + Speed Boost'],
-		onBegin() {
-			this.add('-message', `Welcome to Megas Revisited!`);
-			this.add('-message', `This is a Generation 6 OU-based Pet Mod where every existing Mega Evolution has been redesigned.`);
-			this.add('-message', `You can find our thread and metagame resources here:`);
-			this.add('-message', `https://www.smogon.com/forums/threads/3713949/`);
-		},
-	},
-	{
-		name: "[Gen 1] RBY CAP",
-		desc: `A Gen 1 metagame where Fakemon are added in a similar fashion to Smogon's official Create-A-Pokemon Project.`,
-		mod: 'gen1rbycap',
-		ruleset: ['Standard'],
-		banlist: ['Uber', 'Camouflage'],
-		onBegin() {
-			this.add('-message', `Welcome to RBY CAP!`);
-			this.add('-message', `This is a Generation 1 OU-based Pet Mod where Fakemon are added in a similar way to the official CAP project.`);
-			this.add('-message', `You can find our thread and participate here:`);
-			this.add('-message', `https://www.smogon.com/forums/threads/3737699/`);
-		},
-		onSwitchIn(pokemon) {
-			this.add('-start', pokemon, 'typechange', (pokemon.illusion || pokemon).getTypes(true).join('/'), '[silent]');
-			pokemon.apparentType = pokemon.getTypes(true).join('/');
-		},
-	},
-	{
-		name: "[Gen 6] NEXT OU",
-		mod: 'gennext',
-		searchShow: false,
-		challengeShow: false,
-		ruleset: ['Obtainable', 'Standard NEXT', 'Team Preview'],
-		banlist: ['Uber'],
-	},
-
 	// Draft League
 	///////////////////////////////////////////////////////////////////
 
