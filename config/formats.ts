@@ -19,6 +19,36 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	// Toro League stuff!!
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Toro League",
+	},
+
+	{
+		name: "Toro League Single",
+		desc: `Singles battle with Toroan variants available. No bans.`,
+		mod: 'toroleague',
+		ruleset: ['Standard NatDex'],
+	},
+
+	{
+		name: "Toro League Double",
+		desc: `Doubles battle with Toroan variants available. No bans.`,
+		gameType: 'doubles',
+		mod: 'toroleague',
+		ruleset: ['Standard NatDex'],
+	},
+
+	{
+		name: "Toro League Free-For-All",
+		desc: `Free-For-All battle with Toroan variants available. No bans.`,
+		gameType: 'freeforall',
+		mod: 'toroleague',
+		ruleset: ['Standard NatDex'],
+	},
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
