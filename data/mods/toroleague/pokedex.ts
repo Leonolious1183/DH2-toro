@@ -258,7 +258,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	shiinotictoro: {
 		num: 756,
 		name: "Shiinotic-Toro",
-		types: ["Grass", "Fairy"],
+		types: ["Ice", "Poison"],
 		baseStats: {hp: 100, atk: 25, def: 80, spa: 110, spd: 60, spe: 30},
 		abilities: {0: "Slush Rush", 1: "Effect Spore", H: "Simple"},
 		heightm: 1,
