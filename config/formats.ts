@@ -27,14 +27,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 
 	{
-		name: "Toro League Single",
+		name: "[Gen 9] Toro League Single",
 		desc: `Singles battle with Toroan variants available. No bans.`,
 		mod: 'toroleague',
 		ruleset: ['Standard NatDex', 'Terastal Clause'],
 	},
 
 	{
-		name: "Toro League Double",
+		name: "[Gen 9] Toro League Double",
 		desc: `Doubles battle with Toroan variants available. No bans.`,
 		gameType: 'doubles',
 		mod: 'toroleague',
@@ -42,7 +42,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 
 	{
-		name: "Toro League Free-For-All",
+		name: "[Gen 9] Toro League Free-For-All",
 		desc: `Free-For-All battle with Toroan variants available. No bans.`,
 		gameType: 'freeforall',
 		mod: 'toroleague',

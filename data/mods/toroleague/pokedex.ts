@@ -153,7 +153,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     gossifleurtoro: {
 		num: 829,
 		name: "Gossifleur-Toro",
-		types: ["Grass"],
+		types: ["Grass", "Fire"],
 		baseStats: {hp: 40, atk: 30, def: 10, spa: 60, spd: 60, spe: 50},
 		abilities: {0: "Cotton Down", 1: "Flash Fire", H: "Chlorophyll"},
 		heightm: 0.4,
@@ -165,7 +165,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	eldegosstoro: {
 		num: 830,
 		name: "Eldegoss-Toro",
-		types: ["Grass"],
+		types: ["Grass", "Fire"],
 		baseStats: {hp: 60, atk: 40, def: 60, spa: 120, spd: 100, spe: 80},
 		abilities: {0: "Cotton Down", 1: "Flash Fire", H: "Chlorophyll"},
 		heightm: 0.5,
