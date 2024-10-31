@@ -2,6 +2,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     doduotoro: {
         num: 84,
         name: "Doduo-Toro",
+		baseSpecies: "Doduo",
+		forme: "Toro",
         types: ["Fighting, Electric"],
         baseStats: {hp: 35, atk: 90, def: 35, spa: 35, spd: 35, spe: 80},
 		abilities: {0: "Run Away", 1: "Motor Drive", H: "Moxie"},
@@ -14,19 +16,23 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     dodriotoro: {
 		num: 85,
 		name: "Dodrio-Toro",
+		baseSpecies: "Dodrio",
+		forme: "Toro",
 		types: ["Normal", "Flying"],
 		baseStats: {hp: 60, atk: 115, def: 60, spa: 60, spd: 60, spe: 115},
 		abilities: {0: "Run Away", 1: "Motor Drive", H: "Moxie"},
 		heightm: 1.8,
 		weightkg: 85.2,
 		color: "Brown",
-		prevo: "Doduo",
+		prevo: "Doduo-Toro",
 		evoLevel: 31,
 		eggGroups: ["Flying"],
 	},
     dratinitoro: {
 		num: 147,
 		name: "Dratini-Toro",
+		baseSpecies: "Dratini",
+		forme: "Toro",
 		types: ["Ice", "Dragon"],
 		baseStats: {hp: 41, atk: 50, def: 50, spa: 50, spd: 50, spe: 50},
 		abilities: {0: "Serene Grace", 1: "Cute Charm", H: "Marvel Scale"},
@@ -39,6 +45,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     dragonairtoro: {
 		num: 148,
 		name: "Dragonair-Toro",
+		baseSpecies: "Dragonair",
+		forme: "Toro",
 		types: ["Ice", "Dragon"],
 		baseStats: {hp: 41, atk: 100, def: 100, spa: 134, spd: 95, spe: 80},
 		abilities: {0: "Serene Grace", 1: "Cute Charm", H: "Marvel Scale"},
@@ -52,6 +60,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     ledybatoro: {
 		num: 165,
 		name: "Ledyba-Toro",
+		baseSpecies: "Ledyba",
+		forme: "Toro",
 		types: ["Bug", "Dark"],
 		baseStats: {hp: 50, atk: 40, def: 30, spa: 40, spd: 30, spe: 65},
 		abilities: {0: "Download", 1: "Forewarn", H: "Defiant"},
@@ -64,6 +74,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     lediantoro: {
 		num: 166,
 		name: "Ledian",
+		baseSpecies: "Ledian",
+		forme: "Toro",
 		types: ["Bug", "dark"],
 		baseStats: {hp: 70, atk: 90, def: 70, spa: 90, spd: 70, spe: 110},
 		abilities: {0: "Download", 1: "Forewarn", H: "Defiant"},
@@ -77,6 +89,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     relicanthtoro: {
 		num: 369,
 		name: "Relicanth-Toro",
+		baseSpecies: "Relicanth",
+		forme: "Toro",
 		types: ["Water", "Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 100, atk: 45, def: 110, spa: 100, spd: 110, spe: 20},
@@ -89,6 +103,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     whismurtoro: {
 		num: 293,
 		name: "Whismur-Toro",
+		baseSpecies: "Whismur",
+		forme: "Toro",
 		types: ["Fairy"],
 		baseStats: {hp: 74, atk: 51, def: 23, spa: 51, spd: 23, spe: 18},
 		abilities: {0: "Soundproof", H: "Run Away"},
@@ -100,7 +116,9 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	},
 	loudredtoro: {
 		num: 294,
-		name: "Loudred",
+		name: "Loudred-Toro",
+		baseSpecies: "Loudred",
+		forme: "Toro",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 94, atk: 71, def: 43, spa: 71, spd: 53, spe: 28},
 		abilities: {0: "Soundproof", H: "Pixilate"},
@@ -114,7 +132,9 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	},
 	exploudtoro: {
 		num: 295,
-		name: "Exploud",
+		name: "Exploud-Toro",
+		baseSpecies: "Exploud",
+		forme: "Toro",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 114, atk: 91, def: 73, spa: 91, spd: 83, spe: 38},
 		abilities: {0: "Soundproof", H: "Pixilate"},
@@ -127,7 +147,9 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	},
     skiddotoro: {
 		num: 672,
-		name: "Skiddo",
+		name: "Skiddo-Toro",
+		baseSpecies: "Skiddo",
+		forme: "Toro",
 		types: ["Rock"],
 		baseStats: {hp: 57, atk: 66, def: 62, spa: 48, spd: 52, spe: 65},
 		abilities: {0: "Rock Head", H: "Sand Rush"},
@@ -139,7 +161,9 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	},
 	gogoattoro: {
 		num: 673,
-		name: "Gogoat",
+		name: "Gogoat-Toro",
+		baseSpecies: "Gogoat",
+		forme: "Toro",
 		types: ["Rock", "Fighting"],
 		baseStats: {hp: 81, atk: 123, def: 97, spa: 62, spd: 68, spe: 100},
 		abilities: {0: "Rock Head", H: "Sand Rush"},
@@ -153,6 +177,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     gossifleurtoro: {
 		num: 829,
 		name: "Gossifleur-Toro",
+		baseSpecies: "Gossifleur",
+		forme: "Toro",
 		types: ["Grass", "Fire"],
 		baseStats: {hp: 40, atk: 30, def: 10, spa: 60, spd: 60, spe: 50},
 		abilities: {0: "Cotton Down", 1: "Flash Fire", H: "Chlorophyll"},
@@ -165,6 +191,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	eldegosstoro: {
 		num: 830,
 		name: "Eldegoss-Toro",
+		baseSpecies: "Eldegoss",
+		forme: "Toro",
 		types: ["Grass", "Fire"],
 		baseStats: {hp: 60, atk: 40, def: 60, spa: 120, spd: 100, spe: 80},
 		abilities: {0: "Cotton Down", 1: "Flash Fire", H: "Chlorophyll"},
@@ -178,6 +206,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     yanmatoro: {
 		num: 193,
 		name: "Yanma-Toro",
+		baseSpecies: "Yanma",
+		forme: "Toro",
 		types: ["Bug", "Dragon"],
 		baseStats: {hp: 65, atk: 75, def: 45, spa: 65, spd: 45, spe: 95},
 		abilities: {0: "Speed Boost", 1: "Compound Eyes", H: "Skill Link"},
@@ -190,6 +220,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     yanmegatoro: {
 		num: 469,
 		name: "Yanmega-Toro",
+		baseSpecies: "Yanmega",
+		forme: "Toro",
 		types: ["Bug", "Dragon"],
 		baseStats: {hp: 86, atk: 116, def: 56, spa: 76, spd: 86, spe: 95},
 		abilities: {0: "Speed Boost", 1: "Tinted Lens", H: "Skill Link"},
@@ -204,6 +236,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     gothitatoro: {
 		num: 574,
 		name: "Gothita-Toro",
+		baseSpecies: "Gothita",
+		forme: "Toro",
 		types: ["Psychic", "Ghost"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 50, atk: 85, def: 30, spa: 25, spd: 35, spe: 65},
@@ -217,6 +251,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	gothoritatoro: {
 		num: 575,
 		name: "Gothorita-Toro",
+		baseSpecies: "Gothorita",
+		forme: "Toro",
 		types: ["Psychic", "Ghost"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 65, atk: 100, def: 50, spa: 45, spd: 55, spe: 75},
@@ -232,6 +268,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	gothitelletoro: {
 		num: 576,
 		name: "Gothitelle-Toro",
+		baseSpecies: "Gothitelle",
+		forme: "Toro",
 		types: ["Psychic", "Ghost"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 75, atk: 125, def: 75, spa: 45, spd: 65, spe: 105},
@@ -246,6 +284,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
     morelulltoro: {
 		num: 755,
 		name: "Morelull-Toro",
+		baseSpecies: "Morelull",
+		forme: "Toro",
 		types: ["Ice", "Poison"],
 		baseStats: {hp: 40, atk: 35, def: 55, spa: 65, spd: 75, spe: 15},
 		abilities: {0: "Slush Rush", 1: "Effect Spore", H: "Simple"},
@@ -258,6 +298,8 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	shiinotictoro: {
 		num: 756,
 		name: "Shiinotic-Toro",
+		baseSpecies: "Shiinotic",
+		forme: "Toro",
 		types: ["Ice", "Poison"],
 		baseStats: {hp: 100, atk: 25, def: 80, spa: 110, spd: 60, spe: 30},
 		abilities: {0: "Slush Rush", 1: "Effect Spore", H: "Simple"},
